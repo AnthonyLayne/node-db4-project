@@ -5,6 +5,7 @@
     "start": "node index.js",
     "server": "nodemon index.js",
     "migrate": "knex migrate:latest",
+    "migrate-down": "knex migrate:down",
     "rollback": "knex migrate:rollback",
     "reset": "npm run rollback && npm run seed",
     "seed": "knex seed:run",

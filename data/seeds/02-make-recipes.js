@@ -34,6 +34,11 @@ const step_ingredients = [
     quantity: 2,
   },
   {
+    step_id: 1,
+    ingredient_id: 2,
+    quantity: 1,
+  },
+  {
     step_id: 2,
     ingredient_id: 1,
     quantity: 2,
